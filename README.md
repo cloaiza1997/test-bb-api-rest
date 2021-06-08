@@ -2,7 +2,7 @@ Restful API
 
 Desarrollada por Cristian Loaiza
 
-1. Ejecutar los scripts para la creación de la base de datos:
+1. Ejecutar los scripts para la creación de la base de datos en postgreSQL:
 
    - `CREATE DATABASE bdb_employees;`
    - `CREATE TABLE employees (id SERIAL PRIMARY KEY, document_number INT, fullname TEXT, employee_function TEXT, boss_id INT);`
